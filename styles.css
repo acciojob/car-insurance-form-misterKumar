@@ -1,2 +1,53 @@
 
 /* Your CSS Code here. */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
